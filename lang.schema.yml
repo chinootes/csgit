@@ -1,0 +1,27 @@
+version: 1
+imports: []
+schemas:
+  - id: lang
+    parent: root
+    namespace: true
+    children:
+      - syntax
+      - typing
+      - arch
+      - paradigms
+      - lib
+      - exceptions
+      - concurrency
+      - db access
+  - id: syntax
+    template: template.lang.syntax
+  - id: typing
+  - id: arch
+    children: 
+      - runtime
+  - id: paradigms
+  - id: lib
+  - id: exceptions
+  - id: concurrency
+  - id: db access
+  - id: runtime
