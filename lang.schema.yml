@@ -7,21 +7,22 @@ schemas:
     children:
       - syntax
       - typing
-      - arch
+      - compile-time
+      - runtime
       - paradigms
       - lib
+      - ds
       - exceptions
       - concurrency
       - db access
   - id: syntax
     template: template.lang.syntax
   - id: typing
-  - id: arch
-    children: 
-      - runtime
   - id: paradigms
   - id: lib
+  - id: ds
   - id: exceptions
   - id: concurrency
   - id: db access
   - id: runtime
+  - id: compile-time

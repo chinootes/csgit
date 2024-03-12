@@ -2,7 +2,7 @@
 id: lowbrvvwi2771on5p057lhi
 title: Syntax
 desc: 'Java Syntax'
-updated: 1709474632650
+updated: 1709666367170
 created: 1709449585041
 ---
 
@@ -105,6 +105,24 @@ public class HelloWorld{
 ### Compound
  
 #### Array
+
+##### Defining
+```java
+int[] arr;
+```
+
+```java
+int a[];
+```
+
+Array can be defined in java in the above two ways. However, unlike C++ defining an array actually means that we are defining a pointer, which will point to an array.
+
+##### Declaring
+
+```java
+int arr[] = new int(3)
+```
+
 #### Structures
 #### Interfaces
 

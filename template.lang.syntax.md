@@ -2,7 +2,7 @@
 id: rre28shun1wx5ldrxs7dsk2
 title: Syntax
 desc: ''
-updated: 1709450789425
+updated: 1709666378756
 created: 1709446248295
 ---
 
@@ -29,6 +29,12 @@ created: 1709446248295
 ### Compound
  
 #### Array
+
+##### Defining
+
+##### Declaring
+
+
 #### Structures
 #### Interfaces
 
