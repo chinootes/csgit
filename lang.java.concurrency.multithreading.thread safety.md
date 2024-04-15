@@ -1,10 +1,12 @@
 ---
-id: dz63fzmbultupk8nk7ypldb
-title: How To Make a block of code Thread Safe
+id: sna2umv15ruskiu91590dgn
+title: Thread Safety
 desc: ''
-updated: 1708613818602
-created: 1708613784379
+updated: 1713125553172
+created: 1713125526427
 ---
+
+How to make a block of code thread safe?
 
 1. Stateless Implementation
     - Source of error in most cases (multithreaded apps)
@@ -36,3 +38,8 @@ created: 1708613784379
 11. Reentrant locks
 12. Read/write locks
 
+### Volatile and Atomic 
+
+`volatile` is used when there are two threads store and perform operations on same variable. In such case, both threads store the variable in different caches. This results in inaccuracy and inconsistency. Thus, the `volatile` keyword lets [[lang.java.jre.jvm]] know that this is variable is going to be changed and it is then stored in the common cache.
+
+`AtomicInteger`, `AtomicLong` and other such classes are used in a similar situation to above, where the threads are accessing and performing some operation on a variable. If we don't define the variable as Atomic, it might happen that the second thread accesses the variable before the first thread is done performing operation on it. This causes inconsistency in the data. The `AtomicInteger` makes the integer thread safe by not letting any other thread access until one thread is done.

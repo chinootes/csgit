@@ -2,7 +2,7 @@
 id: rre28shun1wx5ldrxs7dsk2
 title: Syntax
 desc: ''
-updated: 1709666378756
+updated: 1712884786723
 created: 1709446248295
 ---
 
@@ -22,6 +22,8 @@ created: 1709446248295
 
 ### Both at once
 
+## Constants
+
 ## Data types
 
 ### Primitives
@@ -33,6 +35,9 @@ created: 1709446248295
 ##### Defining
 
 ##### Declaring
+
+#### Strings
+
 
 
 #### Structures

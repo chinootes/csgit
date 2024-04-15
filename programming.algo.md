@@ -1,8 +1,8 @@
 ---
 id: 141dnmstuz2btddjhykr9uh
-title: Rule-based Algorithm
+title: Algorithms
 desc: ''
-updated: 1708793232110
+updated: 1712077750760
 created: 1708793203322
 ---
 

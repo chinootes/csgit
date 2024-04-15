@@ -15,14 +15,19 @@ schemas:
       - exceptions
       - concurrency
       - db access
+      - patterns
+      - tool
   - id: syntax
-    template: template.lang.syntax
+    template: zzz-template.lang.syntax
   - id: typing
   - id: paradigms
   - id: lib
   - id: ds
   - id: exceptions
+    template: zzz-template.lang.exceptions
   - id: concurrency
   - id: db access
   - id: runtime
   - id: compile-time
+  - id: patterns
+  - id: tool
